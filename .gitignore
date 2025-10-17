@@ -90,3 +90,9 @@ Desktop.ini
 # Plastic SCM
 .plastic/
 
+# Unity Build Output (IL2CPP, Burst, etc.)
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+*_BurstDebugInformation_DoNotShip/
+*_Data/
+*.symbols.zip
+
