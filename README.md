@@ -1,6 +1,6 @@
 # Lab2 VR Demo
 
-A Unity VR project for Meta Quest 3 with interactive features including ball shooting, grabbing, scoring system, and locomotion.
+A Unity VR demo project for Meta Quest 3 with interactive features including ball shooting, grabbing, scoring system, and locomotion.
 
 ## Features
 
@@ -11,9 +11,7 @@ A Unity VR project for Meta Quest 3 with interactive features including ball sho
 
 ### Interaction System
 - **Ball Shooter**: Shoot colored balls with right trigger
-  - 8 blue-to-white gradient colors
   - Physics-based projectiles
-  - Configurable lifetime (default 20 seconds)
   - Audio feedback support
 - **Grab System**: Pick up balls with left trigger
   - Physics-based grabbing
@@ -21,10 +19,9 @@ A Unity VR project for Meta Quest 3 with interactive features including ball sho
   - Configurable grab radius
 
 ### Scoring System
-- **Interactive Button**: Push-able button triggered by ball collisions
+- **Interactive Button**: Push-able button triggered by balls
 - **Score Manager**: Singleton score management system
 - **VR UI Display**: World-space score display
-- **Combo System**: Optional combo multiplier (configurable)
 
 ## Controls
 
